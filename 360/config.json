@@ -1,0 +1,41 @@
+{
+  "scenes": [
+    {
+      "id": "id_5oe9hspg7",
+      "name": "頂上區-1",
+      "imageUrl": "https://raw.githubusercontent.com/Syue-Liu/360-images/main/360/pano_1776919110704.png",
+      "hotspots": [
+        {
+          "id": "id_27fm9wbk4",
+          "phi": 1.6276,
+          "theta": -0.297,
+          "label": "前往",
+          "targetScene": "id_dhg54hq9g",
+          "icon": "🔵",
+          "color": "#5ab8c4",
+          "size": 44,
+          "pulse": true
+        }
+      ]
+    },
+    {
+      "id": "id_dhg54hq9g",
+      "name": "往營本部",
+      "imageUrl": "https://raw.githubusercontent.com/Syue-Liu/360-images/main/360/pano_1776919172454.png",
+      "hotspots": [
+        {
+          "id": "id_q0aclm36l",
+          "phi": 1.4730267244670776,
+          "theta": -0.2991294597374204,
+          "label": "往頂上區",
+          "targetScene": "id_5oe9hspg7",
+          "icon": "🔵",
+          "color": "#c4a35a",
+          "size": 44,
+          "pulse": true
+        }
+      ]
+    }
+  ],
+  "startScene": "id_d0s2jnexj"
+}
