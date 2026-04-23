@@ -1,133 +1,200 @@
 {
   "scenes": [
     {
-      "id": "id_5oe9hspg7",
+      "id": "id_lpc6km07v",
       "name": "頂上區",
-      "imageUrl": "https://raw.githubusercontent.com/Syue-Liu/360-images/main/360/pano_1776919110704.png",
+      "imageUrl": "https://raw.githubusercontent.com/Syue-Liu/360-images/main/360/pano_1776929357840.png",
       "hotspots": [
         {
-          "id": "id_27fm9wbk4",
-          "phi": 1.6266386316904389,
-          "theta": -0.05297226608852614,
-          "label": "前往",
-          "targetScene": "id_dhg54hq9g",
+          "id": "id_6sf2djqmf",
+          "phi": 1.6255871975085008,
+          "theta": -0.24459488098158236,
+          "label": "往廁所",
+          "targetScene": "id_fzu38xw76",
+          "icon": "🏔",
+          "color": "#ffffff",
+          "size": 44,
+          "pulse": true
+        }
+      ],
+      "folder": "id_ej8n3f265"
+    },
+    {
+      "id": "id_fzu38xw76",
+      "name": "頂上區廁所",
+      "imageUrl": "https://raw.githubusercontent.com/Syue-Liu/360-images/main/360/pano_1776930109457.png",
+      "hotspots": [
+        {
+          "id": "id_29os456ik",
+          "phi": 1.6204,
+          "theta": 0.2433,
+          "label": "頂上區",
+          "targetScene": "id_lpc6km07v",
+          "icon": "⬆",
+          "color": "#f0a030",
+          "size": 44,
+          "pulse": true
+        },
+        {
+          "id": "id_sajiqj6rx",
+          "phi": 1.8246,
+          "theta": -2.3105,
+          "label": "往營本部",
+          "targetScene": "id_ypf8vpdci",
           "icon": "⬆",
           "color": "#ffffff",
           "size": 44,
           "pulse": true
         }
-      ]
+      ],
+      "folder": "id_ej8n3f265"
     },
     {
-      "id": "id_dhg54hq9g",
+      "id": "id_ypf8vpdci",
       "name": "頂上區往營本部",
-      "imageUrl": "https://raw.githubusercontent.com/Syue-Liu/360-images/main/360/pano_1776919172454.png",
+      "imageUrl": "https://raw.githubusercontent.com/Syue-Liu/360-images/main/360/pano_1776930206229.png",
       "hotspots": [
         {
-          "id": "id_q0aclm36l",
-          "phi": 1.4730267244670776,
-          "theta": -0.2991294597374204,
+          "id": "id_izv6o8199",
+          "phi": 1.8180168939001622,
+          "theta": 2.9785453299272473,
+          "label": "往營本部",
+          "targetScene": "id_hrwmg4fgp",
+          "icon": "⬆",
+          "color": "#ffffff",
+          "size": 44,
+          "pulse": true
+        },
+        {
+          "id": "id_j0toa3xld",
+          "phi": 1.53,
+          "theta": -0.2422,
           "label": "往頂上區",
-          "targetScene": "id_5oe9hspg7",
+          "targetScene": "id_fzu38xw76",
           "icon": "⬆",
-          "color": "#ffffff",
-          "size": 44,
-          "pulse": true
-        },
-        {
-          "id": "id_phecrmxj8",
-          "phi": 1.7708437313425562,
-          "theta": 2.9460775356884685,
-          "label": "前往",
-          "targetScene": "id_3yo3jjiza",
-          "icon": "⬆",
-          "color": "#ffffff",
+          "color": "#f0a030",
           "size": 44,
           "pulse": true
         }
-      ]
+      ],
+      "folder": "id_ej8n3f265"
     },
     {
-      "id": "id_3yo3jjiza",
+      "id": "id_hrwmg4fgp",
       "name": "營本部",
-      "imageUrl": "https://raw.githubusercontent.com/Syue-Liu/360-images/main/360/pano_1776923242736.png",
+      "imageUrl": "https://raw.githubusercontent.com/Syue-Liu/360-images/main/360/pano_1776930255987.png",
       "hotspots": [
         {
-          "id": "id_67xinvv2h",
-          "phi": 1.6551,
-          "theta": 0.1277,
-          "label": "回頂上區",
-          "targetScene": "id_dhg54hq9g",
+          "id": "id_y2e8a21nx",
+          "phi": 1.6972,
+          "theta": -3.026,
+          "label": "往第一區",
+          "targetScene": "id_im1ietwra",
           "icon": "⬆",
           "color": "#ffffff",
           "size": 44,
           "pulse": true
         },
         {
-          "id": "id_0k58slgyb",
-          "phi": 1.6822,
-          "theta": 2.7278,
-          "label": "第一區",
-          "targetScene": "id_m3prw5rv3",
+          "id": "id_7ditsvtrx",
+          "phi": 1.6876,
+          "theta": 0.1639,
+          "label": "往頂上區",
+          "targetScene": "id_ypf8vpdci",
           "icon": "⬆",
-          "color": "#ffffff",
+          "color": "#f0a030",
           "size": 44,
           "pulse": true
         },
         {
-          "id": "id_lict7qnc2",
-          "phi": 1.6812,
-          "theta": 1.2527,
+          "id": "id_03so40uus",
+          "phi": 1.679,
+          "theta": 1.2137,
           "label": "往第二區",
-          "targetScene": "id_jrakwq66h",
+          "targetScene": "id_9jh6f5th3",
           "icon": "⬆",
           "color": "#ffffff",
           "size": 44,
           "pulse": true
         }
-      ]
+      ],
+      "folder": "id_ej8n3f265"
     },
     {
-      "id": "id_jrakwq66h",
-      "name": "往第二區",
-      "imageUrl": "https://raw.githubusercontent.com/Syue-Liu/360-images/main/360/pano_1776923589518.png",
+      "id": "id_im1ietwra",
+      "name": "第一區",
+      "imageUrl": "https://raw.githubusercontent.com/Syue-Liu/360-images/main/360/pano_1776930405845.png",
       "hotspots": [
         {
-          "id": "id_38k0njx6v",
-          "phi": 1.7835,
-          "theta": -3.0927,
-          "label": "前往",
-          "targetScene": "id_tzbgbp8z3",
+          "id": "id_84iwpdhjz",
+          "phi": 1.743,
+          "theta": 0.8838,
+          "label": "往營本部",
+          "targetScene": "id_hrwmg4fgp",
+          "icon": "⬆",
+          "color": "#f0a030",
+          "size": 44,
+          "pulse": true
+        }
+      ],
+      "folder": "id_ej8n3f265"
+    },
+    {
+      "id": "id_9jh6f5th3",
+      "name": "第一區往第二區",
+      "imageUrl": "https://raw.githubusercontent.com/Syue-Liu/360-images/main/360/pano_1776930442938.png",
+      "hotspots": [
+        {
+          "id": "id_ay0ltkexe",
+          "phi": 1.8080158759564156,
+          "theta": -3.113017010008407,
+          "label": "往第二區",
+          "targetScene": "id_j0pvu4lbp",
           "icon": "⬆",
           "color": "#ffffff",
           "size": 44,
           "pulse": true
         },
         {
-          "id": "id_ma2z0fo97",
-          "phi": 1.5541,
-          "theta": 0.5609,
-          "label": "前往",
-          "targetScene": "id_3yo3jjiza",
+          "id": "id_w35ymbv8k",
+          "phi": 1.5898,
+          "theta": 0.6464,
+          "label": "往營本部",
+          "targetScene": "id_hrwmg4fgp",
+          "icon": "⬆",
+          "color": "#f0a030",
+          "size": 44,
+          "pulse": true
+        }
+      ],
+      "folder": "id_ej8n3f265"
+    },
+    {
+      "id": "id_j0pvu4lbp",
+      "name": "第二區",
+      "imageUrl": "https://raw.githubusercontent.com/Syue-Liu/360-images/main/360/pano_1776930431914.png",
+      "hotspots": [
+        {
+          "id": "id_nszqqmefx",
+          "phi": 1.6942,
+          "theta": 0.3158,
+          "label": "往第一區",
+          "targetScene": "id_lpc6km07v",
           "icon": "⬆",
           "color": "#ffffff",
           "size": 44,
           "pulse": true
         }
-      ]
-    },
-    {
-      "id": "id_m3prw5rv3",
-      "name": "第一區",
-      "imageUrl": "https://raw.githubusercontent.com/Syue-Liu/360-images/main/360/pano_1776923658548.png",
-      "hotspots": []
-    },
-    {
-      "id": "id_tzbgbp8z3",
-      "name": "第二區",
-      "imageUrl": "https://raw.githubusercontent.com/Syue-Liu/360-images/main/360/pano_1776923734510.png",
-      "hotspots": []
+      ],
+      "folder": "id_ej8n3f265"
     }
   ],
-  "startScene": "id_d0s2jnexj"
+  "startScene": "id_lpc6km07v",
+  "folders": [
+    {
+      "id": "id_ej8n3f265",
+      "name": "司馬限山嵐露營區",
+      "open": false
+    }
+  ]
 }
