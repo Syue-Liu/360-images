@@ -7,13 +7,13 @@
       "hotspots": [
         {
           "id": "id_6sf2djqmf",
-          "phi": 1.6255871975085008,
-          "theta": -0.24459488098158236,
+          "phi": 1.6261,
+          "theta": -0.181,
           "label": "往廁所",
           "targetScene": "id_fzu38xw76",
           "icon": "⬆",
           "color": "#ffffff",
-          "size": 44,
+          "size": 38,
           "pulse": true
         }
       ],
@@ -236,7 +236,7 @@
     {
       "id": "id_ej8n3f265",
       "name": "司馬限山嵐露營區",
-      "open": false
+      "open": true
     }
   ]
 }
